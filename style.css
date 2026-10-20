@@ -1,0 +1,79 @@
+.boxDebug{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.wholePage{
+    display: flex;
+    flex-direction: column; 
+}
+.PageHeader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PageHeader_nav{
+    display: flex;
+    
+}
+
+ul{
+    display: flex;
+    gap: 8px;
+}
+
+li{
+    list-style-type: none;
+    
+}
+/* hero column */
+.pageHero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.heroLeft{
+    
+}
+.heroRight{
+    
+}
+
+/* info column */
+
+.pageInfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.boxes{
+    gap:16px;
+}
+.boxItem{
+    display: flex;
+    flex-direction: column; 
+} 
+
+
+.testimonialPage{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
+    font-size: 48px;
+}
+.testimonialAuthor{
+    margin:0px 0px 0px auto;
+    font-size: 28px;
+    font-weight: bold;
+} 
+
+.footer{
+   
+  text-align: center ;
+}
